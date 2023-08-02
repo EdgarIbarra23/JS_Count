@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #3978EF;
+}
+
+h2{
+    text-align: center;
+} 
+
+.container{
+    width: 300px;
+    margin: auto;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee9e5;
+    border-radius: 20px;
+}
+
+.decrease,
+.increase {
+    font-size: 50px;
+    margin: 0px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: #eee9e5;
+    color: #405059;
+
+}
+
+.increase:hover,
+.decrease:hover {
+    color: #0c8f8f;
+}
+
+input[type='button']{
+    background-color: #3978EF;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    width: 7rem;
+    height: 5rem;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 3px #8ba6ac;
+}
